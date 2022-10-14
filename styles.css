@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 0;
+}
+
+
+
+
+.container {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    /* flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0; */
+}
