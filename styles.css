@@ -22,8 +22,28 @@ body {
     padding: 0;
 }
 
-.box {
-    /* flex: 1 1 auto;
-    min-width: 0;
-    min-height: 0; */
+
+/* 
+.box:hover {
+    background-color: blue;
+} */
+
+.pink {
+    background-color: pink;
+}
+
+.squares {
+    /* Green */
+    border: none;
+    color: black;
+    padding: 5px 12px;
+    margin: 0 5px 20px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: beige;
+    border: 1px solid black;
 }
