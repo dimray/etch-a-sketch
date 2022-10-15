@@ -3,6 +3,8 @@ const container = document.querySelector(".container");
 const grid = document.querySelector("#squares");
 const btn = document.querySelector("#btn");
 
+const colorPicker = document.querySelector("#colorpicker");
+
 btn.addEventListener("click", function (event) {
     event.preventDefault();
     setGrid(+ grid.value);
@@ -35,7 +37,8 @@ function setGrid(gridValue) {
 
     boxes.forEach(function (box) {
         box.addEventListener("mouseover", function () {
-            box.classList.add("pink");
+            box.style.backgroundColor = colorPicker.value;
+
         });
     });
 

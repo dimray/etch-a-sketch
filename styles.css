@@ -3,8 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0;
-    padding: 0;
+
+
 }
 
 
@@ -22,15 +22,6 @@ body {
     padding: 0;
 }
 
-
-/* 
-.box:hover {
-    background-color: blue;
-} */
-
-.pink {
-    background-color: pink;
-}
 
 .squares {
     /* Green */
